@@ -51,7 +51,6 @@ match (tx) {
             }
 
         } else if (data == 2) then {
-
             # if recipient is a member 
             if (isDefined(isUser)) then {
                 # if recipient is kyc 1

@@ -13,7 +13,7 @@ match (tx) {
             if (w.recipient == addressFromPublicKey(digiliraPay)) then {
                 true
             } else {
-             throw(("Unfortunately you can only send waves to issuer... "))
+             throw(("Unfortunately you can only send waves to issuer..."))
             }
         }
     
