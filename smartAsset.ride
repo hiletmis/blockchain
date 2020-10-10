@@ -15,6 +15,13 @@ let maxAmount = 100000000
 match (tx) {
     case t: TransferTransaction =>
 
+
+
+
+
+
+
+
         let data = getInteger(admin, toBase58String(t.sender.bytes))
         let amount = t.amount
         let assetId = extract(t.assetId)
